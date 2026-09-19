@@ -455,7 +455,7 @@ header {
 
     text-decoration: none;
 
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
 
     transition: 0.3s;
@@ -750,7 +750,6 @@ footer {
 
 @media (max-width: 768px) {
 
-    /* Navbar */
 
     .nav-menu {
         position: absolute;
@@ -779,8 +778,6 @@ footer {
     }
 
 
-    /* Hero */
-
     .hero {
         flex-direction: column;
 
@@ -793,22 +790,16 @@ footer {
     }
 
 
-    /* About */
-
     .about-content {
         grid-template-columns: 1fr;
     }
 
-
-    /* Skills */
 
     .skills-content {
         grid-template-columns: 1fr;
         gap: 50px;
     }
 
-
-    /* Projects */
 
     .project-grid {
         grid-template-columns: 1fr;
@@ -825,8 +816,6 @@ footer {
     }
 
 
-    /* Hero */
-
     .hero {
         padding-left: 15px;
         padding-right: 15px;
@@ -841,8 +830,6 @@ footer {
     }
 
 
-    /* Buttons */
-
     .hero-buttons {
         flex-direction: column;
     }
@@ -854,8 +841,6 @@ footer {
     }
 
 
-    /* Section */
-
     .section {
         padding: 80px 15px;
     }
@@ -864,8 +849,6 @@ footer {
         font-size: 30px;
     }
 
-
-    /* Skills */
 
     .skills-content {
         grid-template-columns: 1fr;
@@ -881,8 +864,6 @@ footer {
         font-size: 16px;
     }
 
-
-    /* Hero Card */
 
     .profile-circle {
         width: 100px;
